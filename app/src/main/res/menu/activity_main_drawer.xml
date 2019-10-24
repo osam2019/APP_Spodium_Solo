@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIN="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/sportTogether"
+            android:title="Sport Together" />
+        <item
+            android:id="@+id/soccer"
+            android:title="soccer" />
+        <item
+            android:id="@+id/baseball"
+            android:title="baseball" />
+        <item
+            android:id="@+id/basketball"
+            android:title="basketball" />
+        <item
+            android:id="@+id/settings"
+            android:title="settings" />
+    </group>
+</menu>
